@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>GKTCS-Design Thinking</title>
+    <link rel="stylesheet" href="style.css">
+
+ <!--<link rel="stylesheet" type="text/css" href="boot.css">-->
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+
+ <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script>
+ $(function(){
+     $('[data-toggle="tooltip"]').tooltip({
+       html:true
+     });
+     
+ });
+</script>
+
+
+</head>
+<body>
+ <div class="header " id="topheader">
+    <nav class="navbar navbar-expand-lg  navbar-dark fixed-top" id="navbar_top">
+      <div class="container text-uppercase p-2">
+
+        <a class="navbar-brand font-weight-bold text-white" href="#">GKTCS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#why">Why Design Thinking?</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#servicediv">About Program</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#pricingdiv">Plans</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#testi">Testimonials</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#questionid">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactid">Contact</a>
+              </li>
+            
+            
+          </ul>
+          
+        </div>
+        </div>
+      </nav>
+      <section class="header-section">
+        <div class="center-div">
+          <h1 class="font-weight-bold" style="font-size: 60px; color:darkblue">Design Thinking</h1>
+              <p>Design Thinking is neither art nor science. It is the capacity for integrated thinking.
+              </p>
+              <div class="header-buttons">
+                  <a href="#">Download Curriculam</a>
+        </div>
+
+      </section>
+ </div>
+
+
+
+
+<!--<script>
+  document.addEventListener("DOMContentLoaded", function(){
+    window.addEventListener('scroll',function(){
+      if (window.scrollY >50 ){
+        document.getElementById('navbar_top').classList.add('fixed-top');
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height +'px';
+
+      }else{
+        document.getElementById('navbar_top').classList.remove('fixed-top');
+        document.body.style.paddingTop = '0';
+      }
+    });
+  });
+</script>-->
+
+
+
+
+
+
+ 
+ <!--Header part ends-->
+
+<!--Extra div section-->
+<section class="header-extradiv" id="why">
+  <div class="container">
+      <div class="row">
+          <div class=" extra-div col-lg-4 col-md-4 col-12">
+              <a href="#"><i class=" fa-4x fa fa-user" aria-hidden="true"></i></a>
+                  <h2>HUMAN-CENTERED</h2>
+                  <p>his principle starts with empathy and focuses on research to really understand people—clients, customers and users.
+                      </p>
+                    
+                  
+          </div>
+
+          
+
+          <div class=" extra-div col-lg-4 col-md-4 col-12">
+              <a href="#"><i class=" fa-4x fa fa-refresh" aria-hidden="true"></i></a>
+                  <h2>ITERATIVE</h2>
+                  <p>Once you’ve come up with a solution or product, it’s important to keep challenging and reframing the problem. Test, iterate, test and test again.
+              </p>
+          </div>
+
+          <div class=" extra-div col-lg-4 col-md-4 col-12">
+              <a href="#"><i class=" fa-4x fa fa-users" aria-hidden="true"></i></a>
+                  <h2>COLLABORATIVE</h2>
+                  <p> People with diverse perspectives work together, creating multidisciplinary teams that encourage different viewpoints and client co-creation.
+              </p>
+              
+          </div>
+
+          <div class=" extra-div col-lg-4 col-md-4 col-12">
+            <a href="#"><i class=" fa-4x fa fa-magic" aria-hidden="true"></i></a>
+                <h2>CREATIVE AND PLAYFUL</h2>
+                <p> It allows you to frame the problem in a new way, look at it from different perspectives and consider a variety of solutions.
+        
+            </p>
+            
+        </div>
+
+        <div class=" extra-div col-lg-4 col-md-4 col-12">
+            <a href="#"><i class=" fa-4x fa fa-anchor" aria-hidden="true"></i></a>
+                <h2>PROTOTYPE DRIVEN</h2>
+                <p> Whether it’s a sample product or an idea drawn on paper, creating tangible representations of your solutions allows for sharing and gathering feedback.
+            </p>
+            
+            
+        </div>
+
+        <div class=" extra-div col-lg-4 col-md-4 col-12">
+            <a href="#"><i class=" fa-4x fa fa-desktop" aria-hidden="true"></i></a>
+                <h2>INNOVATIVE</h2>
+                <p> Design thinking is a human-centered approach to innovation—anchored in understanding customer's needs and generating creative ideas—that will transform the way you develop products.
+            </p>
+            
+            
+        </div>
+    </div>
+</div>
+
+</section>
+<!--Haracteristics ends here-->
+
+
+<!---About Program-->
+ 
+<section class="about">
+  <h1>About Our Program</h1>
+  <p>GKTCS provides an extensive program on Design Thinking, in which you will also be provided by the Certification after the completion of the program.</p>
+  
+</section>
+<!--Images-->
+<div class="Images">
+<div class="pic">
+  <img src="D:\trimester3\website\pictures/elearning.jpg">
+  <div class="caption">
+      <h6> Experiencing E-learning</h6>
+  </div>
+</div>
+
+<div class="pic">
+  <img src="D:\trimester3\website\pictures/certification.jpg">
+  <div class="caption">
+      <h6>&nbsp;&nbsp;&nbsp;&nbsp; Get Certified</h6>
+  </div>
+</div>
+    
+<div class="pic">
+  <img src="D:\trimester3\website\pictures/skills.jpg">
+  <div class="caption">
+      <h6>&nbsp;&nbsp;&nbsp;&nbsp; Developing Skills</h6>
+  </div>
+</div>
+<div class="pic">
+  <img src="D:\trimester3\website\pictures/confiedence.jpg">
+  <div class="caption">
+      <h6>&nbsp;&nbsp;&nbsp;&nbsp; Building Confiedence</h6>
+  </div>
+</div>
+<div class="pic">
+  <img src="D:\trimester3\website\pictures/jobs.jpg">
+  <div class="caption">
+      <h6>&nbsp;&nbsp;&nbsp;&nbsp; Job-Opportunities</h6>
+  </div>
+</div>
+</div>
+
+<!--What do we provide-->
+
+<section class="serviceoffers" id="servicediv">
+    <div class="container headings text-center">
+        <h1 class="text-center font-weight-bold">WHAT DO WE OFFER</h1>
+        <p class="text-center">Some of the Content to be covered in Design Thinking Pg Program are:</p>
+
+    </div>
+    <div class="container">
+      <div class="row">
+        
+          <div class="col-lg-6 col-md-12 servicediv">
+            <div class="row">
+              <div class="col-lg-2 col-2 service-icons">
+                <i class=" fa-2x fa fa-leanpub" aria-hidden="true"></i>
+
+              </div>
+               <div class="col-lg-10 col-10">
+                  <h2>Blended Learning</h2>
+               </div>
+             </div>
+<br>
+             <div class="row">
+              <div class="col-lg-2 col-2 service-icons">
+                <i class=" fa-2x fa fa-play" aria-hidden="true"></i>
+
+              </div>
+               <div class="col-lg-10 col-10">
+                  <h2>Lab Based Modular Videos</h2>
+               </div>
+             </div>
+             <br>
+             <div class="row">
+              <div class="col-lg-2 col-2 service-icons">
+                <i class=" fa-2x fa fa-diamond" aria-hidden="true"></i>
+
+              </div>
+              
+               <div class="col-lg-10 col-10">
+                  <h2>Visual Presentation</h2>
+               </div>
+             </div>
+             <br>
+             <div class="row">
+              <div class="col-lg-2 col-2 service-icons">
+                <i class=" fa-2x fa fa-clock-o" aria-hidden="true"></i>
+
+              </div>
+               <div class="col-lg-10 col-10">
+                  <h2>Real time Case Studies</h2>
+               </div>
+             </div>
+             <br>
+             <div class="row">
+              <div class="col-lg-2 col-2 service-icons">
+                <i class=" fa-2x fa fa-hand-paper-o" aria-hidden="true"></i>
+
+              </div>
+               <div class="col-lg-10 col-10">
+                  <h2>Hands-on-Approach</h2>
+               </div>
+             </div>
+          </div>
+
+<br>
+
+
+
+          <div class="col-lg-6 col-md-12 servicediv">
+            <div class="row">
+              <div class="col-lg-2 col-2 service-icons">
+                <i class=" fa-2x fa fa-certificate" aria-hidden="true"></i>
+
+              </div>
+               <div class="col-lg-10 col-10">
+                  <h2>Stages of Design Thinking</h2>
+               </div>
+             </div>
+<br>
+             <div class="row">
+              <div class="col-lg-2 col-2 service-icons">
+                <i class=" fa-2x fa fa-keyboard-o" aria-hidden="true"></i>
+
+              </div>
+               <div class="col-lg-10 col-10">
+                  <h2>Critical Inputs</h2>
+               </div>
+             </div>
+             <br>
+             <div class="row">
+              <div class="col-lg-2 col-2 service-icons">
+                <i class=" fa-2x fa fa-video-camera" aria-hidden="true"></i>
+
+              </div>
+              
+               <div class="col-lg-10 col-10">
+                  <h2>Presentation</h2>
+               </div>
+             </div>
+             <br>
+             <div class="row">
+              <div class="col-lg-2 col-2 service-icons">
+                <i class=" fa-2x fa fa-volume-up" aria-hidden="true"></i>
+
+              </div>
+               <div class="col-lg-10 col-10">
+                  <h2>Discussions</h2>
+               </div>
+             </div>
+             <br>
+             <div class="row">
+              <div class="col-lg-2 col-2 service-icons">
+                <i class=" fa-2x fa fa-commenting" aria-hidden="true"></i>
+
+              </div>
+               <div class="col-lg-10 col-10">
+                  <h2>Feedback</h2>
+               </div>
+             </div>
+          </div>
+
+
+      </div>
+    </div>
+
+</section>
+<!--Information-->
+<section class="project-work">
+  <div class="container headings text-center">
+      <p class="text-center font-weight-bold">Information About Our Program</p>
+      
+  </div>
+  <div class="container d-flex justify-content-around align-items-center text-center">
+    <div>
+      <h1 class="count">50</h1>
+      <p>Happy Clients</p>
+    </div>
+
+    <div>
+      <h1 class="count">93</h1>
+      <p>Projects</p>
+    </div>
+
+    <div>
+      <h1 class="count">108</h1>
+      <p>Happy Learners</p>
+    </div>
+
+    <div>
+      <h1 class="count">15</h1>
+      <p>Countries</p>
+    </div>
+  </div>
+  </section>
+
+
+  <!--    Pricing         -->
+  <section class="pricing" id="pricingdiv">
+    <div class="container headings text-center">
+        <h1 class="text-center font-weight-bold text-white">Our Best Plans</h1>
+        
+    </div>
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-3 col-12">
+          <div class="card text-center">
+          <div class="card-header">Bronze</div>
+            <div class="card-body">
+              <li>*Starts from Rs<span class="money">2,000</span>/ month</li>
+              <li>*Recorded Sessions</li>
+              <li>*Premiere Content</li>
+              <li>*Online Test</li>
+              <li>*Online Certification</li>
+            </div>
+            <div class="card-footer">
+              <!--<a href="#">Subscribe</a>-->
+              <a  class="" href="#"  title="<h5>Please Select a Plan for Bronze Subscription</h5><hr><br>*Pay Rs 19,200 for 12 Month<br> *Pay Rs 10,200 for 6 Month<br>
+                *Pay Rs 5,400 for 3 Month<br> *Pay Rs 2,000 for 1 Month" data-placement="bottom" data-toggle="tooltip">Subscribe</a>
+              
+            </div>
+          </div>
+          </div>
+        
+      
+
+      
+        <div class="col-lg-3 col-12 card-second">
+          <div class="card text-center">
+          <div class="card-header">Silver</div>
+            <div class="card-body">
+              <li>*Starts from Rs<span class="money">5,000</span>/ month</li>
+              <li>*4 live Sessions</li>
+              <li>*1 Hour Mentorship</li>
+              <li>*Premiere Content</li>
+              <li>*Online Certification</li>
+            </div>
+            <div class="card-footer">
+              <!--<a href="#">Subscribe</a>-->
+
+              <a href="#" title="<h5>Please select a Plan for Silver Subscription</h5><hr><br>*Pay Rs 48,000for 12 Month<br>* Pay Rs 25,500 for 6 Month
+                <br> Pay Rs 13,500 for 3 Month<br> Pay Rs 5,000 for 1 Month" data-toggle="tooltip">Subscribe</a>
+                
+            </div>
+          </div>
+        </div>
+
+        
+          <div class="col-lg-3 col-12 card-second">
+            <div class="card text-center">
+            <div class="card-header">Gold</div>
+              <div class="card-body">
+                <li>*Starts from Rs<span class="money">8,000</span>/ month</li>
+                <li>*8 live Sessions</li>
+                <li>*2 Hours Mentorship</li>
+                <li>*Premiere Content</li>
+                <li>*Online Certification</li>
+              </div>
+              <div class="card-footer">
+               <!-- <a href="#">Subscribe</a>-->
+               <a href="#" title="<h5>Please select a plan for Gold Subscription</h5><hr><br>*Pay Rs 76,800 for 12 Month<br>* Pay Rs 40,800 for 6 Month<br>
+                *Pay Rs 21,600 for 3 Month<br>*Pay Rs 8,000 for 1 Month" data-toggle="tooltip">Subscribe</a>
+                
+              </div>
+            </div>
+          </div>
+
+          
+            <div class="col-lg-3 col-12">
+              <div class="card text-center">
+              <div class="card-header">Diamond</div>
+                <div class="card-body">
+                  <li>*Starts from Rs<span class="money">10,000</span></li>
+                  <li>*16 live Sessions</li>
+                  <li>*8 Hours Mentorship</li>
+                  <li>*Premiere Content</li>
+                  <li>*Online Certification</li>
+                </div>
+                <div class="card-footer">
+                 <!-- <a href="#">Subscribe</a>-->
+                 <a href="#" title="<h5>Please select a Plan for Diamond Subscription </h5><hr><br>*Pay Rs 96,000 for 12 Month<br>* Pay Rs 51,000 for 6 Month
+                  <br> *Pay Rs 27,000 for 3 Month<br>* Pay Rs 10,000 for 1 Month" data-toggle="tooltip" >Subscribe</a>
+                
+                </div>
+              </div>
+            </div>
+          
+        
+      
+    </div>
+    </div>
+    </section> 
+<!--Eligibility-->
+<section class="Eligibility">
+  <h1> Addmission Details</h1>
+  <p>To get an Addmission in GKTCS Design Thinking PG Program Applicants must have a Bachelor's degree with a minimum of 50% aggregate marks or equivalent, as well as programming experience.<br><b>NOTE:</b>  We provide a free pre- program lesson for those who are unfamiliar with python.</p>
+  <div class="details">
+      
+  </div>
+  <br>
+
+  <div class="box2" id="b1">
+      <h2><b>Step 1:</b></h2>
+      <p>Interested Candidates need to apply by filling <br>a simple online application Form</p>
+          
+      
+          
+      </div><br>
+      <div class="box2" id="b1">
+          <h2><b>Step 2:</b></h2>
+          <p>Select Subscription Plan and<br> pay for it.</p>
+               
+          
+      
+      </div><br>
+      <div class="box2" id="b1">
+          <h2><b>Step 3:</b></h2>
+          <p>Fill Profile details and wait for approval.After<br> approval you will get plan-wise <br>Dashboard access.</p>
+               
+          
+      
+      </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!--Testimonials-->
+
+<section class="happyclients" id="testi">
+  <div class="container headings text-center">
+      <h1 class="text-center font-weight-bold">Testimonials</h1>
+      <p class="text-capitalize pt-1">Our Well-Pleased Learners Says</p>
+  </div>
+
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner container">
+    <div class="carousel-item active">
+      
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+            <a href="#"><i class=" fa-3x fa fa-user-circle" style="padding-top: 2%;" aria-hidden="true"></i></a>
+            <p class="m-4">"It was a nice journey with GKTCS. In GKTCS there is more focus on Practice skills as well as on theory part. Really Thanks to GKTCS.Great Experience"
+            </p>
+            <h1>Rajeshkumar Bohara</h1>
+          </div>
+
+      </div>
+      
+
+<div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+            <a href="#"><i class=" fa-3x fa fa-user-circle" style="padding-top: 2%;" aria-hidden="true"></i></a>
+            <p class="m-4">"
+            "I am Highly obliged that i was part of GKTCS. Great Staff Members. Learnt a lot 12 months. Great platform to improve technical skills.Thank you!"
+          </p>
+            <h1>Ms Zankhana Atodaria</h1>
+          </div>
+
+        
+  </div>
+
+      <div class="col-lg-4 col-md-4 col-12">
+        <div class="box">
+          <a href="#"><i class=" fa-3x fa fa-user-circle" style="padding-top: 2%;" aria-hidden="true"></i></a>
+          <p class="m-4" >"GKTCS has laid the fondation to my successful career in IT. I remain grateful to Surendra Sir and the very capable team of GKTCS. Proud to be Associated"
+          
+          </p>
+          <h1>Juhi Dudhwala</h1>
+        </div>
+
+      </div>
+    </div>
+
+<!------------------------------------------------------------>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+            <a href="#"><i class=" fa-3x fa fa-user-circle" style="padding-top: 2%;" aria-hidden="true"></i></a>
+            <p class="m-4"> "GKTCS innovations is a life changing experience for me. GKTCS really helped me improve all my skills during PG program. Thank you GKTCS for all this."</p>
+            
+            <h1>Sonali Joshi</h1>
+          </div>
+
+        </div>
+      
+
+<div class="col-lg-4 col-md-4 col-12">
+          <div class="box">
+            <a href="#"><i class=" fa-3x fa fa-user-circle" style="padding-top: 2%;" aria-hidden="true"></i></a>
+            <p class="m-4">"With great knowledge comes great responsibility, and GKTCS imparts  knowledge with this responsibility as well.For some life vision, you are most welcome."
+            </p>
+            <h1>Ruchita Sharma Dubey</h1>
+          </div>
+
+        
+  </div>
+
+      <div class="col-lg-4 col-md-4 col-12">
+        <div class="box">
+          <a href="#"><i class=" fa-3x fa fa-user-circle" style="padding-top: 2%;" aria-hidden="true"></i></a>
+          <p class="m-4">"It was a nice journey with GKTCS. In GKTCS there is more focus on Practice skills as well as on theory part. Really Thanks to GKTCS. Great Experience here!"
+          </p>
+          <h1>Rajeshkumar Bohara</h1>
+        </div>
+
+      </div>
+    </div> 
+
+
+
+    </div>
+    
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev" >
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+  </section>
+<!--FAQs-->
+        
+
+ 
+<section class="questions" id="questionid">
+  <h1> Frequently Asked Questions[FAQs]</h1>
+</section>  <br>
+<div class="Box">
+  <p class="heading">FAQs</p>
+   
+  <div class="faqs">
+      <details>
+        <summary>For whom is this program designed for?</summary>
+        <p class="test">The Postgraduate Diploma program is an intensive,  online program designed for working professionals seeking to develop advanced skills in innovation and design thinking.</p>
+      </details>
+
+      <details>
+        <summary>I am not from a technical background. Can i join?</summary>
+        <p class="test">We require that you have a technical background to get the most out of this course. The class will comprise of seasoned professionals, often with years of technical experience, and we have designed the  course with this in mind. For those of you who are interested, and do not have a significant technical background, we offer other courses.</p>
+      </details>
+
+      <details>
+        <summary>What can i expect from this Program?</summary>
+        <p class="test">The Postgraduate Diploma in Innovation and Design Thinking will provide participants the tools they need to take a design project from inspiration and insights to ideation and implementation and understand the full scope of organizational innovation and strategy.</p>
+      </details>
+
+      <details>
+          <summary>How will this program benifit my career? </summary>
+          <p class="test">There is a growing demand for design thinking professionals across industries. The program will equip you with advanced skills and prepare you for challenges and opportunities in this area. These skills will make you invaluable in your current role and help you enhance your future career prospects.</p>
+      </details>
+
+      <details>
+          <summary>Can i change my program Plan after paying the application fee?</summary>
+          <p class="test">yes, After completing one month you can select any other plan and pay for it..</p>
+      </details>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------Contact-->
+<section class="contactus" id="contactid">
+  <div class="container headings text-center">
+      <h1 class="text-center font-weight-bold">CONTACT US</h1>
+      <p class="text-capitalize pt-1">"We're here to help and Answer youe Queries..."</p>
+  </div>
+
+  <div class="container">
+    <div class="row">
+   
+   <div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 offset-1">
+      
+    <form action="/action_page.php">
+        <div class="form-group">
+          
+          <input type="text" class="form-control" placeholder="Enter Name" id="username" autocomplete="off" required>
+        </div>
+
+        <form action="/action_page.php">
+          <div class="form-group">
+            
+            <input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off" required>
+          </div>
+
+          <form action="/action_page.php">
+            <div class="form-group">
+              
+              <input type="text" class="form-control" placeholder="Enter Number" id="mobile" autocomplete="off" required>
+            </div>
+
+            <div class="form-group">
+              
+              <textarea class="form-control" rows="4" id="comment" placeholder="Enter your Message"></textarea>
+            </div>
+        
+        
+         <div class="d-flex justify-content-center form-button">
+        <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--Footer-->
+
+<footer class="footersection" id="footerdiv">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-12 footer-div">
+        <div>
+          <h3>About GKTCS</h3>
+          <p>GKTCS Innovations provides an Interactive, Innovative, Informative and Interesting E-learning platform for Corporate Trainers, special educators, passionate mentors and Learners across the globe. At GKTCS, it is a matter of pride for us to make innovative hands-on courses available to everyone, any time & anywhere.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-12 footer-div text-center">
+        <div>
+          <h3>Navigation Links</h3>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Why Design Thinking?</a></li>
+          <li><a href="#">About program</a></li>
+          <li><a href="#">Plans</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Contact</a></li>
+        </div>
+    </div>
+
+      <div class="col-lg-4 col-md-12 col-12 footer-div">
+        <div>
+          <h3>Information</h3>
+          <p>For more informatiob regarding any program feel free to contact us.
+          </p>
+
+          <div class="container newsletter-main">
+              <div class="row">
+                <div class="col-lg-12  col-12">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control news-input" placeholder="Your E-mail">
+                        <div class="input-group-append">
+                          <span class="input-group-text">Submit</span>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+     </div>
+
+    </div>
+    <div class="mt-5 text-center">
+        <p>Copyright &#169;2021 All rights reserved</p>
+    </div>
+    <div class="scrolltop float-right">
+        <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+    </div>
+  </div>
+
+</footer>
+<!-- End Footer -->
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+
+
+
+
+
+
+$('.count').counterUp({
+  delay: 10,
+  time: 1000
+});
+
+//get the button:
+mybutton = document.getElementById("myBtn");
+//When the user scrool down 20px from the top of the document ,show the button
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document .documentElement.scroll > 20) {
+
+    mybutton.style.display = "none";
+  } else {
+    mybutton.style.display = "block";
+  }
+}
+//when the user clicks on the button , scroll to the top
+function topFunction() {
+  document.body.scrollTop = 0;// for safari
+  document.documentElement.scrollTop = 0;//for chrome,firefox and opera
+}
+</script>
+  </body>
+
+
+
+
+
+</html>
